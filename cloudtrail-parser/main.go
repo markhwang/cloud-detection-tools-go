@@ -7,7 +7,6 @@ import (
 	"io/ioutil"
 	"log"
 	"os"
-	"time"
 )
 
 // CloudTrailEvent represents a parsed AWS CloudTrail event
