@@ -1,0 +1,23 @@
+{
+  "eventVersion": "1.08",
+  "eventTime": "2025-12-29T10:30:00Z",
+  "eventName": "AttachUserPolicy",
+  "eventSource": "iam.amazonaws.com",
+  "awsRegion": "us-east-1",
+  "sourceIPAddress": "203.0.113.42",
+  "userAgent": "aws-cli/2.13.0",
+  "userIdentity": {
+    "type": "IAMUser",
+    "principalId": "AIDACKCEVSQ6C2EXAMPLE",
+    "arn": "arn:aws:iam::123456789012:user/alice",
+    "accountId": "123456789012",
+    "userName": "alice"
+  },
+  "requestParameters": {
+    "userName": "bob",
+    "policyArn": "arn:aws:iam::aws:policy/AdministratorAccess"
+  },
+  "responseElements": null,
+  "errorCode": "",
+  "errorMessage": ""
+}
